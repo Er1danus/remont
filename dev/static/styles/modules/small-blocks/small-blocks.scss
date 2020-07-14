@@ -1,0 +1,29 @@
+.logo {
+  &__img {
+    height: 70px;
+  }
+}
+
+.section-title {
+  font-size: 47px;
+  line-height: 59px;
+}
+
+.little-gear {
+  position: absolute;
+  width: 176px;
+  height: 176px;
+  top: -200px;
+  left: -220px;
+  filter: blur(5px);
+  transform: rotate(120deg);
+}
+
+.big-gear {
+  position: absolute;
+  width: 376;
+  height: 376px;
+  right: -350px;
+  top: -200px;
+  filter: blur(5px);
+}
